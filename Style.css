@@ -1,0 +1,206 @@
+body {
+  max-width: 500px;
+  height: 1250px;
+  font-size: 14px;
+  font-family: "Ariel", Helvetica, sans-serif;
+  border: 1px solid rgb(188, 180, 180);
+  padding-left: 20px;
+  margin: 40px;
+}
+
+.jacket {
+  width: 100%;
+}
+
+.stars {
+  color: rgb(122, 218, 240);
+}
+.logo {
+  position: relative;
+  left: 260px;
+  max-width: 100%;
+}
+.title {
+  color: rgb(107, 170, 25);
+  text-transform: uppercase;
+  font-weight: thin;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.nigalo {
+  color: rgb(107, 170, 25);
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.first-price {
+  width: 40%;
+  height: 30px;
+  border: 1px solid rgb(234, 220, 220);
+  padding: 20px;
+  position: relative;
+}
+
+.full-price {
+  font-size: 14px;
+  font-weight: bolt;
+  font-family: "Roboto 100";
+  text-decoration: line-through;
+  color: brown;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.sale {
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.price-after-sale {
+  font-weight: bolder;
+  font-size: 32px;
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+}
+.second-price {
+  width: 30%;
+  height: 50px;
+  padding: 10px;
+  border: none solid rgb(194, 190, 190);
+  background-color: rgb(232, 229, 229);
+  color: rgb(56, 158, 182);
+  position: relative;
+  right: -240px;
+  top: -70px;
+}
+
+.price-club {
+  font-weight: bolder;
+  font-size: 28px;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+.price-Husky {
+  position: absolute;
+  left: 30px;
+}
+
+.color {
+  text-transform: uppercase;
+  padding: 0px 0 10px 0;
+  font-style: 100px;
+}
+.yellow {
+  border: 2px solid rgb(219, 203, 23);
+}
+.green {
+  border: 1px solid black;
+}
+.black {
+  border: 1px solid black;
+}
+
+.size-S {
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+  font-style: 100px;
+}
+
+.border-S {
+  border: 1px solid rgb(208, 196, 196);
+  max-width: 100%;
+  padding: 14px;
+  text-transform: left;
+}
+
+.size {
+  padding: 5px 0 5px 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: rgb(243, 151, 14);
+}
+
+.stock {
+  text-transform: uppercase;
+  color: rgb(107, 170, 25);
+  text-transform: bold;
+  font-size: 14px;
+}
+
+.shop {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgb(107, 170, 25);
+  text-transform: bold;
+}
+
+.basket {
+  position: relative;
+}
+.add-to-basket {
+  width: 300px;
+  height: 17px;
+  border: 1px solid rgb(107, 170, 25);
+  background-color: rgb(107, 170, 25);
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -70px;
+}
+
+.ikony1 {
+  padding: 8px;
+  height: 40px;
+  border: 1px solid grey;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  right: 305px;
+  bottom: -527px;
+}
+.ikony2 {
+  padding: 8px;
+  margin: 5px;
+  height: 40px;
+  border: 1px solid grey;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  right: 252px;
+  bottom: -532px;
+}
+
+.free-transport {
+  position: relative;
+  bottom: -80px;
+}
+
+.return-exchange {
+  position: relative;
+  bottom: -65px;
+  left: 300px;
+}
+
+.transport {
+  position: relative;
+}
+
+.track {
+  position: absolute;
+  left: 30px;
+  bottom: -100px;
+  width: 30px;
+}
